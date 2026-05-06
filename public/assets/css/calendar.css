@@ -1,0 +1,93 @@
+/*==================================
+                CALENDAR
+====================================*/
+.ui-datepicker {
+    width: auto !important;
+    padding: 15px !important;
+    background-color: var(--dark-card-bg) !important;
+    border: 1px solid var(--border-dark) !important;
+    border-radius: var(--border-radius) !important;
+}
+
+.ui-widget-header {
+    border: 0 !important;
+    background: transparent !important;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 20px !important;
+}
+
+.ui-datepicker-prev:hover,
+.ui-datepicker-prev:focus,
+.ui-datepicker-prev:active,
+.ui-datepicker-next:hover,
+.ui-datepicker-next:focus,
+.ui-datepicker-next:active {
+    background-color: #018ba63d !important;
+    border-radius: 50% !important;
+    border: 0 !important;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.ui-datepicker-prev span {
+    display: none !important;
+}
+
+.ui-datepicker-next span {
+    display: none !important;
+} 
+
+.ui-datepicker-prev::before {
+    display: none;
+}
+
+.ui-datepicker-next::before {
+    display: none;
+}
+
+.ui-datepicker-prev.ui-corner-all.ui-datepicker-prev-hover.ui-state.hover:hover 
+.ui-datepicker-prev.ui-corner-all:focus {
+    border-radius: 50% !important;
+    background: #018ba636;
+}
+
+.ui-datepicker th {
+    font-size: 11px;
+    color: var(--navy-mid) !important;
+    text-align: center;
+}
+
+.ui-state-default, 
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default,
+.ui-button, 
+html .ui-button.ui-state-disabled:hover, 
+html .ui-button.ui-state-disabled:active {
+    border: 0 !important;
+    background: transparent !important;    
+    font-size: 12px;
+    color: var(--navy-light) !important;
+    text-align: center;
+}
+
+.ui-datepicker table tbody tr td {
+    padding: 3px 7px !important;
+    text-align: center;
+}
+
+.ui-state-highlight, 
+.ui-widget-content .ui-state-highlight, 
+.ui-widget-header .ui-state-highlight {
+    background: var(--gold) !important;    
+    color: var(--white) !important;
+    border-radius: 6px;
+    padding: 5px 10px !important;
+    font-weight: 600;
+}
