@@ -9,8 +9,8 @@ Dashboard
 @endsection
 
 @section('body')
-<div class="row">
-    <div class="col-12 col-xl-9 px-0">
+<div class="row pe-3">
+    <div class="col-12 col-xl-9 ps-0">
         <header class="topbar d-flex align-items-center justify-content-between" id="topbar">
             <div class="topbar-greetings">
                 <p class="mb-0"> Hi, bakulu holdings</p>
@@ -26,7 +26,7 @@ Dashboard
                 </button>
             </div>
         </header>
-        <main id="pageContent">
+        <main id="main-padding">
             <div class="row" id="greeting-card">
                 <div class="col-12">
                     <div class="card">
@@ -258,7 +258,7 @@ Dashboard
             </div>
         </main>
     </div>
-    <div class="col-12 col-xl-3 px-0">
+    <div class="col-12 col-xl-3 ps-0">
         <div id="pageContentSecondCol">
             <div id="calendar">
                 <div class="col-12">

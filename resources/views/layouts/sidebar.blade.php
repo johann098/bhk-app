@@ -17,24 +17,32 @@
                     <a class="nav-link active"><x-lucide-layout-dashboard class="sidebar-icon" /><span>Dashboard</span></a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link"><x-lucide-activity class="sidebar-icon" /><span>Activity</span></a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link"><x-lucide-git-branch class="sidebar-icon" /><span>Tracks</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"><x-lucide-file-text class="sidebar-icon" /><span>Contracts</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><x-lucide-users class="sidebar-icon" /><span>Clients</span></a>
+                    <a class="nav-link"><x-lucide-users class="sidebar-icon" /><span>Stakeholders</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><x-lucide-folder-open class="sidebar-icon" /><span>Document</span></a>
+                    <a class="nav-link"><x-lucide-folder-open class="sidebar-icon" /><span>Documents</span></a>
+                </li>
+            </ul>
+                       
+            <ul class="list-unstyled px-2">
+                <li class="nav-item">
+                    <a class="nav-link"><x-lucide-bell class="sidebar-icon" /><span>Notifications</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><x-lucide-handshake class="sidebar-icon" /><span>Partenaires</span></a>
+                    <a class="nav-link"><x-lucide-message-circle-question-mark class="sidebar-icon" /><span>Support</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><x-lucide-settings class="sidebar-icon" /><span>Paramètres</span></a>
+                    <a class="nav-link"><x-lucide-settings class="sidebar-icon" /><span>Settings</span></a>
                 </li>
-
             </ul>
 
             <hr class="hr-cs">

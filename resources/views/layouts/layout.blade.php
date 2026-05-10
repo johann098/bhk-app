@@ -8,7 +8,7 @@
     <!-- <link rel="icon" type="image/x-icon" href="/assets/images/imuxt.png"> -->
 
     <!-- BOOTSTRAP v5.3.3 -->
-    <link href="/vendor/booststrap5.3.3/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/bootstrap-5.3.8/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- DATEPICKER CSS -->
     <!-- <link href="/vendor/datepicker/dist/css/datepicker.css" rel="stylesheet"> -->
@@ -29,7 +29,7 @@
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/vendor/jquery-ui-1.14.1/jquery-ui.js"></script>
     @yield('js')
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>
