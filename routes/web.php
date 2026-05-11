@@ -44,3 +44,8 @@ Route::get('/settings', function () {
 Route::get('/notifications', function () {
     return view('pages.notifications.index');
 });
+
+// Connection
+Route::get('/connection', function () {
+    return view('pages.connection.index');
+});
